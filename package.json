@@ -1,5 +1,5 @@
 {
-  "name": "celestial-bodies",
+  "name": "celestial-body-positions",
   "version": "0.1.0",
   "description": "package for various calculations related to celestial bodies",
   "main": "index.js",
