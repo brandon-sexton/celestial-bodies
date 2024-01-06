@@ -9,12 +9,19 @@ import {
 
 /**
  * Get the sun's position in the J2000 ecliptic frame.
+ *
+ * This method is implemented using the algorithm described in
+ * "Satellite Orbits: Models, Methods, and Applications" by Oliver Montenbruck
+ * and Eberhard Gill, pages 70-71.
+ *
+ * The coordinates are expected to be accurate to 0.1-1% of true values.
+ *
  * @param {Epoch} epoch - The epoch to calculate the sun's position for.
  * @return {Vector} - The sun's position in the J2000 ecliptic frame.
  */
 export function getSunPosition(epoch) {
-  const a = 0.0334133589;
-  const b = 0.0003490659;
+  const a = 0.033413358902;
+  const b = 0.0003490658504;
   const t = epoch.getJulianCenturiesPastJ2000();
   const ma = degreesToRadians(357.5256 + 35999.049 * t);
   const sma = Math.sin(ma);
