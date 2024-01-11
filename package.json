@@ -1,6 +1,6 @@
 {
-  "name": "celestial-body-positions",
-  "version": "0.1.1",
+  "name": "otk-celestial-bodies",
+  "version": "0.1.0",
   "description": "package for various calculations related to celestial bodies",
   "main": "index.js",
   "scripts": {
@@ -8,20 +8,32 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandon-sexton/celestial-bodies.git"
+    "url": "git+https://github.com/brandon-sexton/otk-celestial-bodies.git"
   },
   "keywords": [
     "javascript",
-    "npm",
-    "package",
-    "template"
+    "sun",
+    "earth",
+    "moon",
+    "planets",
+    "celestial",
+    "bodies",
+    "astronomy",
+    "astrophysics",
+    "physics",
+    "math",
+    "mathematics",
+    "science",
+    "space",
+    "astrodynamics",
+    "mechanics"
   ],
   "author": "Brandon Sexton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandon-sexton/celestial-bodies/issues"
+    "url": "https://github.com/brandon-sexton/otk-celestial-bodies/issues"
   },
-  "homepage": "https://github.com/brandon-sexton/celestial-bodies#readme",
+  "homepage": "https://github.com/brandon-sexton/otk-celestial-bodies#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.23.7",
     "babel-jest": "^29.7.0",
