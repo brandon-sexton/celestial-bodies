@@ -1,5 +1,5 @@
-import {Vector} from 'vector-matrix-math';
-import {degreesToRadians} from 'unit-conversions-js';
+import {Vector} from 'otk-linear-algebra';
+import {degreesToRadians} from 'otk-unit-conversions';
 import {
   W_PLUS_W,
   COS_OBLIQUITY,
