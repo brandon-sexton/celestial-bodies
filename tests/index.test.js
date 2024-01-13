@@ -1,6 +1,6 @@
 import {getMoonPosition, getSunPosition} from '../src/lofi-positions';
-import {Epoch} from 'time-systems';
-import {Vector} from 'vector-matrix-math';
+import {Epoch} from 'otk-time-systems';
+import {Vector} from 'otk-linear-algebra';
 
 
 test('getSunPosition', () => {
